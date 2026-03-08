@@ -1,4 +1,6 @@
 clear all
+addpath('../code')
+addpath('../data')
 load("cifar_googlenet.mat")
 dataset = cifar_raw;
 
