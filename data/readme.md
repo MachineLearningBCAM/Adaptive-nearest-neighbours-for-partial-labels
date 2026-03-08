@@ -1,7 +1,7 @@
 # Data
 
 This folder contains the datasets used in the experiments of our paper.
-The actual dataset files are not included in the repository due to their size.
+The actual dataset files are not included in the repositoryhttps://github.com/nicolas-e-b/Adaptive-nearest-neighbours-for-partial-labels/tree/main/data due to their size.
 Instructions for obtaining each dataset are provided below.
 
 ## Vision Datasets (CIFAR-10, MNIST, Fashion-MNIST)
