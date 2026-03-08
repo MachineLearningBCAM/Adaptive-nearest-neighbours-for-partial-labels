@@ -46,4 +46,21 @@ The key parameters that can be adjusted at the top of each script are:
 - `noise` — (0.0 to 1.0)
 - `T` — maximum number of iterations
 - `c_1` —  hyperparameter of PL-A-kNN
-- `prop_train` — train/test split proportion 
+- `prop_train` — train/test split proportion
+
+## Author and Support
+
+**Nicolas A. Errandonea**
+nerrandonea@bcamath.org
+
+## License
+
+This project is licensed under the MIT License — see the `LICENSE` file for details.
+
+## Citation
+
+If you find this code useful in your research, please include an explicit mention 
+of our work in your publication with the following entry in your bibliography:
+```bibtex
+
+```
