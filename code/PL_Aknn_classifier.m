@@ -53,7 +53,7 @@ function pred = PL_Aknn_classifier(train, test, maxK, A_0)
         if length(surviving_labels) == 1
             pred(i) = surviving_labels(1);
         else
-            % Multiple labels remain: select using argmin criterion
+            % Multiple labels remain: select using the heuristic criterion
             min_val = inf;
             best_label = surviving_labels(1);
             for y = surviving_labels'
