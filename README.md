@@ -16,7 +16,7 @@ All MATLAB source files are located in the `code/` folder.
 - **`nn_preprocess_real_partial_datasets.m`** — Preprocessing pipeline for the
   real-world partial label datasets (MIRFlickr, MSRCv2). 
 ### Partial Label Generation
-- **`candidate_generator_vision.m`** — Generates partial label scenarios for the
+- **`candidate_generator_vision.m`** — Generates partial labels scenarios for the
   vision benchmarks as specified in the paper.
 
 - **`real_partial_datasets_with_noise.m`** — Adds synthetic noise to the existing
