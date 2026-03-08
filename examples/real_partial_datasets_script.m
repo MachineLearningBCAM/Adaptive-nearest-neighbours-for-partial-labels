@@ -1,4 +1,6 @@
 clear all
+addpath('../code')
+addpath('../data')
 load("Mirflickr.mat")
 
 
