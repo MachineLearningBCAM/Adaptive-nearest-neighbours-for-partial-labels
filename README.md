@@ -20,8 +20,7 @@ All MATLAB source files are located in the `code/` folder.
   vision benchmarks as specified in the paper.
 
 - **`real_partial_datasets_with_noise.m`** — Adds synthetic noise to the existing
-  partial label annotations of the real-world datasets (MIRFlickr, MSRCv2),
-  simulating varying levels of label ambiguity.
+  partial label annotations of the real-world datasets (MIRFlickr, MSRCv2).
 
 ### Utilities
 - **`dataset_split_part_labels.m`** — Splits a dataset into training and test sets
