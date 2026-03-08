@@ -9,7 +9,7 @@ target = full(target);
 
 
 prop_train = 0.8;  %train-test split
-T = 5;           % max number of iterations
+T = 50;           % max number of iterations
 noise = 0.0;       % single noise level, change as needed
 c_1=0.5;           % the constant of the treshold
 rng(41);
