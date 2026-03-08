@@ -17,8 +17,7 @@ All MATLAB source files are located in the `code/` folder.
   real-world partial label datasets (MIRFlickr, MSRCv2). 
 ### Partial Label Generation
 - **`candidate_generator_vision.m`** — Generates partial label scenarios for the
-  vision benchmarks by introducing ambiguity and noise into the label sets using
-  a cluster-based candidate generation strategy.
+  vision benchmarks as specified in the paper.
 
 - **`real_partial_datasets_with_noise.m`** — Adds synthetic noise to the existing
   partial label annotations of the real-world datasets (MIRFlickr, MSRCv2),
