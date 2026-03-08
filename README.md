@@ -16,7 +16,7 @@ All MATLAB source files are located in the `code/` folder.
   real-world partial label datasets (MIRFlickr, MSRCv2). 
 ### Partial Label Generation
 - **`candidate_generator_vision.m`** — Generates partial label scenarios for the
-  vision benchmarks by introducing controlled ambiguity and noise into the label sets using
+  vision benchmarks by introducing ambiguity and noise into the label sets using
   a cluster-based candidate generation strategy.
 
 - **`real_partial_datasets_with_noise.m`** — Adds synthetic noise to the existing
@@ -26,3 +26,24 @@ All MATLAB source files are located in the `code/` folder.
 ### Utilities
 - **`dataset_split_part_labels.m`** — Splits a dataset into training and test sets
   while preserving the partial label structure.
+## Quick Start
+
+The `examples/` folder provides minimal runnable scripts that demonstrate 
+how to use the method on any dataset and  noise level. 
+
+
+- **`vision_script.m`** — Example script for the vision benchmarks 
+  (CIFAR-10, MNIST, Fashion-MNIST). Loads a dataset, generates a partial 
+  label scenario with a configurable noise level, preprocesses the features, 
+  and runs PL-A-kNN returning the prediction accuracy.
+
+- **`real_partial_datasets_script.m`** — Example script for the real-world partial 
+  label datasets (MIRFlickr, MSRCv2). Loads a dataset, adds configurable 
+  noise to the existing partial labels, preprocesses the features, and runs 
+  PL-A-kNN returning the prediction accuracy.
+
+The key parameters that can be adjusted at the top of each script are:
+- `noise` — (0.0 to 1.0)
+- `T` — maximum number of iterations
+- `c_1` —  hyperparameter of PL-A-kNN
+- `prop_train` — train/test split proportion 
