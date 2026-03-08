@@ -28,7 +28,7 @@ All MATLAB source files are located in the `code/` folder.
 ## Quick Start
 
 The `examples/` folder provides minimal runnable scripts that demonstrate 
-how to use the method on any dataset and  noise level. 
+how to use the method on any dataset and  the setting specified in the paper. 
 
 
 - **`vision_script.m`** — Example script for the vision benchmarks 
