@@ -6,7 +6,8 @@ All MATLAB source files are located in the `code/` folder.
 
 ### Algorithm
 - **`PL_Aknn_classifier.m`** — Main algorithm. Implements the adaptive partial-label
-  k-nearest neighbor classifier (PL-A-kNN). 
+  k-nearest neighbor classifier (PL-A-kNN). In cases where two or more  labels remain in the candidate set
+  after T iterations performs the heuristic desambiguatuon criterion specified in the paper.
 
 ### Preprocessing
 - **`nn_preprocess_vision.m`** — Preprocessing pipeline for the vision benchmarks
