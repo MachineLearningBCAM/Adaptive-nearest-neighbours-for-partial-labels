@@ -1,5 +1,5 @@
 # Adaptive-nearest-neighbours-for-partial-labels
-The proposed files implement the Adaptive Nearest Neighbors method for Partial Labels (PL A-kNN) presented in .
+The proposed files implement the Adaptive Nearest Neighbors method for Partial Labels (PL A-kNN) presented in AISTATS 2026.
 ## Code
 
 All MATLAB source files are located in the `code/` folder.
