@@ -34,12 +34,12 @@ how to use the method on any dataset and   setting specified in the paper.
 - **`vision_script.m`** — Example script for the vision benchmarks 
   (CIFAR-10, MNIST, Fashion-MNIST). Loads a dataset, generates a partial 
   label scenario with a configurable noise level, preprocesses the features, 
-  and runs PL-A-kNN returning the prediction accuracy.
+  and runs PL A-kNN returning the prediction accuracy.
 
 - **`real_partial_datasets_script.m`** — Example script for the real-world partial 
   label datasets (MIRFlickr, MSRCv2). Loads a dataset, adds configurable 
   noise to the existing partial labels, preprocesses the features, and runs 
-  PL-A-kNN returning the prediction accuracy.
+  PL A-kNN returning the prediction accuracy.
 
 The key parameters that can be adjusted at the top of each script are:
 - `noise` — (0.0 to 1.0)
