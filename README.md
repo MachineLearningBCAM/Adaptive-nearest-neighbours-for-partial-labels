@@ -1,12 +1,12 @@
 # Adaptive-nearest-neighbours-for-partial-labels
-The proposed files implement the Adaptive Nearest Neighbours method for partial labels (PL AKNN) presented in .
+The proposed files implement the Adaptive Nearest Neighbors method for Partial Labels (PL A-kNN) presented in .
 ## Code
 
 All MATLAB source files are located in the `code/` folder.
 
 ### Algorithm
 - **`PL_Aknn_classifier.m`** — Main algorithm. Implements the Adaptive 
-  Nearest Neighbor method for partial labels (PL-A-kNN). In cases where two or more  labels remain in the candidate set
+  Nearest Neighbor method for partial labels (PL A-kNN). In cases where two or more  labels remain in the candidate set
   after T iterations performs the heuristic desambiguatuon criterion specified in the paper.
 
 ### Preprocessing
