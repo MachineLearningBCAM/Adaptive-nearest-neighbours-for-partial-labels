@@ -65,7 +65,7 @@ of our work in your publication with the following entry in your bibliography:
 ```bibtex
 @inproceedings{errandonea2026learnability,
   title     = {Learnability with Partial Labels and Adaptive Nearest Neighbors},
-  author    = {Errandonea, Nicol{\'a}s A. and Mazuelas, Santiago and Lozano, Jose A. and Dasgupta, Sanjoy},
+  author    = {Errandonea, Nicolas A. and Mazuelas, Santiago and Lozano, Jose A. and Dasgupta, Sanjoy},
   booktitle = {Proceedings of The 29th International Conference on Artificial Intelligence and Statistics},
   year      = {2026},
   url       = {https://openreview.net/forum?id=9Xf9ZUEF3F}
