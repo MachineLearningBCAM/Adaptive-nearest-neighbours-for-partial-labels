@@ -1,5 +1,5 @@
 # Adaptive-nearest-neighbours-for-partial-labels
-The proposed files implement the Adaptive Nearest Neighbors method for Partial Labels (PL A-kNN) presented in AISTATS 2026.
+The proposed files implement the Adaptive Nearest Neighbors method for Partial Labels --PL A-kNN (https://openreview.net/forum?id=9Xf9ZUEF3F) presented in AISTATS 2026.
 ## Code
 
 All MATLAB source files are located in the `code/` folder.
@@ -60,6 +60,10 @@ This project is licensed under the MIT License — see the `LICENSE` file for de
 
 If you find this code useful in your research, please include an explicit mention 
 of our work in your publication with the following entry in your bibliography:
-```bibtex
-
-```
+@inproceedings{errandonea2026learnability,
+  title     = {Learnability with Partial Labels and Adaptive Nearest Neighbors},
+  author    = {Errandonea, Nicol{\'a}s A. and Mazuelas, Santiago and Lozano, Jose A. and Dasgupta, Sanjoy},
+  booktitle = {Proceedings of The 29th International Conference on Artificial Intelligence and Statistics},
+  year      = {2026},
+  url       = {https://openreview.net/forum?id=9Xf9ZUEF3F}
+}
