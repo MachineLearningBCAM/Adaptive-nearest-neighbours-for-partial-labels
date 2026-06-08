@@ -60,6 +60,9 @@ This project is licensed under the MIT License — see the `LICENSE` file for de
 
 If you find this code useful in your research, please include an explicit mention 
 of our work in your publication with the following entry in your bibliography:
+
+
+```bibtex
 @inproceedings{errandonea2026learnability,
   title     = {Learnability with Partial Labels and Adaptive Nearest Neighbors},
   author    = {Errandonea, Nicol{\'a}s A. and Mazuelas, Santiago and Lozano, Jose A. and Dasgupta, Sanjoy},
@@ -67,3 +70,4 @@ of our work in your publication with the following entry in your bibliography:
   year      = {2026},
   url       = {https://openreview.net/forum?id=9Xf9ZUEF3F}
 }
+```
